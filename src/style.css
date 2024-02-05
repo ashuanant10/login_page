@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* width: 100vw;
+  max-height: 100vh; */
+  background-color: rgb(0, 0, 0);
+}
+.header_div {
+  padding: 1rem 2rem;
+  max-height: 5rem;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  text-align: center;
+}
+.header_heading {
+  padding: 0.75rem 2rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header_heading:hover {
+  color: grey;
+  background-color: black;
+  border-radius: 50px;
+}
+.header_list {
+  display: flex;
+  justify-content: space-between;
+}
+.header_li {
+  list-style: none;
+  padding: 0.4rem 1rem;
+  align-self: center;
+  font-weight: bold;
+  color: black;
+}
+.header_li:hover {
+  color: grey;
+  background-color: black;
+  border-radius: 50px;
+}
+.main_content_box {
+  margin: 2rem 10rem;
+  background-color: grey;
+  border-radius: 12px;
+  border: 4px rgb(81, 79, 79) solid;
+  display: flex;
+  flex-direction: row;
+}
+.animation_box {
+  padding: 0.2rem 0.2rem;
+  border-radius: 10px;
+  background-color: grey;
+  align-items: baseline;
+}
+.riveart {
+  width: 50vw;
+  height: 70vh;
+}
+.login_box {
+  padding: 0.2rem 0.2rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.login_box_upper_div {
+  padding: 2rem 1rem;
+  text-align: center;
+}
